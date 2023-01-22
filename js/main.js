@@ -15,10 +15,12 @@ const handleNav = () => {
 };
 
 const handleNavItemsAnimation = () => {
-	let delayuTime = 0;
+	let delayTime = 0;
 
 	allNavItems.forEach((item) => {
 		item.classList.toggle("nav-items-animation");
+		item.style.animationDelay = "." + delayTime + "s";
+        delayTime++
 	});
 };
 
