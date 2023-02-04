@@ -11,6 +11,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet" />
 
 		<script src="https://kit.fontawesome.com/52216e8f57.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body>
@@ -143,40 +144,86 @@
 				<h2 class="section-heading">Oferty</h2>
 				<div class="wrapper">
 					<div class="offers__box">
-						
 						<div class="offers__option">
 							<img class="offers__option-img" src="./img/oferta1_640.jpg" alt="" />
 							<div class="offers__option-info">
 								<h3 class="offers__option-heading">Wyjazd z dziećmi</h3>
-								<p class="offerrs__optin-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam assumenda sequi, aspernatur temporibus beatae eligendi at sunt praesentium omnis?</p> 
+								<p class="offerrs__optin-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam assumenda sequi, aspernatur temporibus beatae eligendi at sunt praesentium omnis?
+								</p>
 								<p class="offerrs__optin-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, iure!</p>
-								<button class="offers__option-btn btn-special-animation">Wybierz</button> 
+								<button class="offers__option-btn btn-special-animation">Wybierz</button>
 							</div>
 						</div>
 						<div class="offers__option">
 							<img class="offers__option-img offers__option-img--right" src="./img/oferta2_640.jpg" alt="" />
 							<div class="offers__option-info">
 								<h3 class="offers__option-heading">Wyjazd z kumplami</h3>
-								<p class="offerrs__optin-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam assumenda sequi, aspernatur temporibus beatae eligendi at sunt praesentium omnis?</p> 
+								<p class="offerrs__optin-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam assumenda sequi, aspernatur temporibus beatae eligendi at sunt praesentium omnis?
+								</p>
 								<p class="offerrs__optin-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, iure!</p>
-								<button class="offers__option-btn btn-special-animation">Wybierz</button> 
+								<button class="offers__option-btn btn-special-animation">Wybierz</button>
 							</div>
 						</div>
 						<div class="offers__option">
 							<img class="offers__option-img" src="./img/oferta3_640.jpg" alt="" />
 							<div class="offers__option-info">
 								<h3 class="offers__option-heading">Tylko we dwoje</h3>
-								<p class="offerrs__optin-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam assumenda sequi, aspernatur temporibus beatae eligendi at sunt praesentium omnis?</p> 
+								<p class="offerrs__optin-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aperiam assumenda sequi, aspernatur temporibus beatae eligendi at sunt praesentium omnis?
+								</p>
 								<p class="offerrs__optin-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, iure!</p>
-								<button class="offers__option-btn btn-special-animation">Wybierz</button> 
+								<button class="offers__option-btn btn-special-animation">Wybierz</button>
 							</div>
 						</div>
-					
+					</div>
+				</div>
+			</section>
+
+			<section class="reviews section-padding section white-section" id="reviews">
+				<h2 class="section-heading">Opinie</h2>
+				<div class="wrapper">
+					<div class="reviews__boxes">
+						<div class="reviews__box">
+							<div class="reviews__box-img">
+								<img src="./img/people_640.jpg" alt="Edek Pojebek" />
+							</div>
+							<div class="reviews__box-info">
+								<div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+								<p class="reviews__box-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime sequi obcaecati asperiores odit animi, tempora iusto totam! Praesentium, atque iusto!</p>
+								<strong>Edek Pojebek</strong>
+							</div>
+						</div>
+						<div class="reviews__box">
+							<div class="reviews__box-img">
+								<img src="./img/people2_640.jpg" alt="La Putita" />
+							</div>
+							<div class="reviews__box-info">
+								<div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+								<p class="reviews__box-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime sequi obcaecati asperiores odit animi, tempora iusto totam! Praesentium, atque iusto!</p>
+								<strong>La Putita</strong>
+							</div>
+						</div>
+						<div class="reviews__box">
+							<div class="reviews__box-img">
+								<img src="./img/people3_640.jpg" alt="Pimpek Sadełko" />
+							</div>
+							<div class="reviews__box-info">
+								<div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+								<p class="reviews__box-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime sequi obcaecati asperiores odit animi, tempora iusto totam! Praesentium, atque iusto!</p>
+								<strong>Pimpek Sadełko</strong>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 		</main>
 
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js" integrity="sha256-mBCu5+bVfYzOqpYyK4jm30ZxAZRomuErKEFJFIyrwvM=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="js/slick.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
